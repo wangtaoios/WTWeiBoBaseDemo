@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D3DE78382E08C672B968531 /* libPods-WTWeiBoBaseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 803A698E6C510EFE0016F8BC /* libPods-WTWeiBoBaseDemo.a */; };
+		93BBD9922069DBA400E98ACF /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BBD9902069DBA400E98ACF /* bear.png */; };
+		93BBD9992069F3D700E98ACF /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BBD9972069F3D700E98ACF /* back@2x.png */; };
+		93BBD99A2069F3D700E98ACF /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BBD9982069F3D700E98ACF /* back@3x.png */; };
+		93BBD99D2069F40600E98ACF /* WTLastVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBD99C2069F40600E98ACF /* WTLastVC.m */; };
+		93BBD99F2069F58500E98ACF /* navi_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BBD99E2069F58500E98ACF /* navi_bg.png */; };
+		93D15F5B2068F4CB000A63B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F5A2068F4CB000A63B5 /* AppDelegate.m */; };
+		93D15F692068F4CB000A63B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F682068F4CB000A63B5 /* main.m */; };
+		93D15F732068F4CB000A63B5 /* WTWeiBoBaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F722068F4CB000A63B5 /* WTWeiBoBaseDemoTests.m */; };
+		93D15F7E2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F7D2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.m */; };
+		93D15F8D2068F552000A63B5 /* WTWeiBoPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F8C2068F552000A63B5 /* WTWeiBoPersonVC.m */; };
+		93D15F902068F696000A63B5 /* WTWeiBoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F8F2068F696000A63B5 /* WTWeiBoVC.m */; };
+		93D15F932068F6EA000A63B5 /* WTPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F922068F6EA000A63B5 /* WTPanGestureRecognizer.m */; };
+		93D15F962068F878000A63B5 /* WTTempTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F952068F878000A63B5 /* WTTempTVC.m */; };
+		93D15F992068FAB4000A63B5 /* WTFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F982068FAB4000A63B5 /* WTFirstVC.m */; };
+		93D15F9C2068FB8E000A63B5 /* WTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D15F9B2068FB8E000A63B5 /* WTNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D15F6F2068F4CB000A63B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D15F4E2068F4CA000A63B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D15F552068F4CA000A63B5;
+			remoteInfo = WTWeiBoBaseDemo;
+		};
+		93D15F7A2068F4CB000A63B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D15F4E2068F4CA000A63B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D15F552068F4CA000A63B5;
+			remoteInfo = WTWeiBoBaseDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D8208E2F74B84CD5DEB4BD7 /* libPods-WTWeiBoBaseDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTWeiBoBaseDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		803A698E6C510EFE0016F8BC /* libPods-WTWeiBoBaseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTWeiBoBaseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810B3B3DA4C70D9F442F1E7F /* Pods-WTWeiBoBaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTWeiBoBaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTWeiBoBaseDemo/Pods-WTWeiBoBaseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		93BBD9902069DBA400E98ACF /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bear.png; sourceTree = "<group>"; };
+		93BBD9972069F3D700E98ACF /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		93BBD9982069F3D700E98ACF /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		93BBD99B2069F40600E98ACF /* WTLastVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTLastVC.h; sourceTree = "<group>"; };
+		93BBD99C2069F40600E98ACF /* WTLastVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTLastVC.m; sourceTree = "<group>"; };
+		93BBD99E2069F58500E98ACF /* navi_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi_bg.png; sourceTree = "<group>"; };
+		93D15F562068F4CA000A63B5 /* WTWeiBoBaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTWeiBoBaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D15F592068F4CB000A63B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93D15F5A2068F4CB000A63B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93D15F672068F4CB000A63B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D15F682068F4CB000A63B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93D15F6E2068F4CB000A63B5 /* WTWeiBoBaseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTWeiBoBaseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D15F722068F4CB000A63B5 /* WTWeiBoBaseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeiBoBaseDemoTests.m; sourceTree = "<group>"; };
+		93D15F742068F4CB000A63B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D15F792068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTWeiBoBaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D15F7D2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeiBoBaseDemoUITests.m; sourceTree = "<group>"; };
+		93D15F7F2068F4CB000A63B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D15F8B2068F552000A63B5 /* WTWeiBoPersonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeiBoPersonVC.h; sourceTree = "<group>"; };
+		93D15F8C2068F552000A63B5 /* WTWeiBoPersonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeiBoPersonVC.m; sourceTree = "<group>"; };
+		93D15F8E2068F696000A63B5 /* WTWeiBoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTWeiBoVC.h; sourceTree = "<group>"; };
+		93D15F8F2068F696000A63B5 /* WTWeiBoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTWeiBoVC.m; sourceTree = "<group>"; };
+		93D15F912068F6EA000A63B5 /* WTPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTPanGestureRecognizer.h; sourceTree = "<group>"; };
+		93D15F922068F6EA000A63B5 /* WTPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTPanGestureRecognizer.m; sourceTree = "<group>"; };
+		93D15F942068F878000A63B5 /* WTTempTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTTempTVC.h; sourceTree = "<group>"; };
+		93D15F952068F878000A63B5 /* WTTempTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTTempTVC.m; sourceTree = "<group>"; };
+		93D15F972068FAB4000A63B5 /* WTFirstVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTFirstVC.h; sourceTree = "<group>"; };
+		93D15F982068FAB4000A63B5 /* WTFirstVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTFirstVC.m; sourceTree = "<group>"; };
+		93D15F9A2068FB8E000A63B5 /* WTNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNavigationController.h; sourceTree = "<group>"; };
+		93D15F9B2068FB8E000A63B5 /* WTNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNavigationController.m; sourceTree = "<group>"; };
+		A640B755F169AA531D8D10D1 /* libPods-WTWeiBoBaseDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTWeiBoBaseDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2D89A3550FB1493FCDD742 /* Pods-WTWeiBoBaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTWeiBoBaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTWeiBoBaseDemo/Pods-WTWeiBoBaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D15F532068F4CA000A63B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3DE78382E08C672B968531 /* libPods-WTWeiBoBaseDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F6B2068F4CB000A63B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F762068F4CB000A63B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93D15F4D2068F4CA000A63B5 = {
+			isa = PBXGroup;
+			children = (
+				93D15F582068F4CA000A63B5 /* WTWeiBoBaseDemo */,
+				93D15F712068F4CB000A63B5 /* WTWeiBoBaseDemoTests */,
+				93D15F7C2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests */,
+				93D15F572068F4CA000A63B5 /* Products */,
+				CAA4EF77D13EACF466AF747C /* Pods */,
+				99C59FD22BDF358D954CE686 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93D15F572068F4CA000A63B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D15F562068F4CA000A63B5 /* WTWeiBoBaseDemo.app */,
+				93D15F6E2068F4CB000A63B5 /* WTWeiBoBaseDemoTests.xctest */,
+				93D15F792068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D15F582068F4CA000A63B5 /* WTWeiBoBaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				93D15F592068F4CB000A63B5 /* AppDelegate.h */,
+				93D15F5A2068F4CB000A63B5 /* AppDelegate.m */,
+				93D15F9A2068FB8E000A63B5 /* WTNavigationController.h */,
+				93D15F9B2068FB8E000A63B5 /* WTNavigationController.m */,
+				93D15F972068FAB4000A63B5 /* WTFirstVC.h */,
+				93D15F982068FAB4000A63B5 /* WTFirstVC.m */,
+				93D15F8B2068F552000A63B5 /* WTWeiBoPersonVC.h */,
+				93D15F8C2068F552000A63B5 /* WTWeiBoPersonVC.m */,
+				93D15F942068F878000A63B5 /* WTTempTVC.h */,
+				93D15F952068F878000A63B5 /* WTTempTVC.m */,
+				93BBD99B2069F40600E98ACF /* WTLastVC.h */,
+				93BBD99C2069F40600E98ACF /* WTLastVC.m */,
+				93D15F8E2068F696000A63B5 /* WTWeiBoVC.h */,
+				93D15F8F2068F696000A63B5 /* WTWeiBoVC.m */,
+				93D15F912068F6EA000A63B5 /* WTPanGestureRecognizer.h */,
+				93D15F922068F6EA000A63B5 /* WTPanGestureRecognizer.m */,
+				93BBD9902069DBA400E98ACF /* bear.png */,
+				93BBD99E2069F58500E98ACF /* navi_bg.png */,
+				93BBD9972069F3D700E98ACF /* back@2x.png */,
+				93BBD9982069F3D700E98ACF /* back@3x.png */,
+				93D15F672068F4CB000A63B5 /* Info.plist */,
+				93D15F682068F4CB000A63B5 /* main.m */,
+			);
+			path = WTWeiBoBaseDemo;
+			sourceTree = "<group>";
+		};
+		93D15F712068F4CB000A63B5 /* WTWeiBoBaseDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D15F722068F4CB000A63B5 /* WTWeiBoBaseDemoTests.m */,
+				93D15F742068F4CB000A63B5 /* Info.plist */,
+			);
+			path = WTWeiBoBaseDemoTests;
+			sourceTree = "<group>";
+		};
+		93D15F7C2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93D15F7D2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.m */,
+				93D15F7F2068F4CB000A63B5 /* Info.plist */,
+			);
+			path = WTWeiBoBaseDemoUITests;
+			sourceTree = "<group>";
+		};
+		99C59FD22BDF358D954CE686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				803A698E6C510EFE0016F8BC /* libPods-WTWeiBoBaseDemo.a */,
+				A640B755F169AA531D8D10D1 /* libPods-WTWeiBoBaseDemoTests.a */,
+				7D8208E2F74B84CD5DEB4BD7 /* libPods-WTWeiBoBaseDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAA4EF77D13EACF466AF747C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D89A3550FB1493FCDD742 /* Pods-WTWeiBoBaseDemo.debug.xcconfig */,
+				810B3B3DA4C70D9F442F1E7F /* Pods-WTWeiBoBaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D15F552068F4CA000A63B5 /* WTWeiBoBaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D15F822068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemo" */;
+			buildPhases = (
+				77DC0A3548DDFCB6C079254F /* [CP] Check Pods Manifest.lock */,
+				93D15F522068F4CA000A63B5 /* Sources */,
+				93D15F532068F4CA000A63B5 /* Frameworks */,
+				93D15F542068F4CA000A63B5 /* Resources */,
+				E399BC44ECC53E96313C92C0 /* [CP] Embed Pods Frameworks */,
+				F1126077B6DA82F302D3FD65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTWeiBoBaseDemo;
+			productName = WTWeiBoBaseDemo;
+			productReference = 93D15F562068F4CA000A63B5 /* WTWeiBoBaseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D15F6D2068F4CB000A63B5 /* WTWeiBoBaseDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D15F852068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemoTests" */;
+			buildPhases = (
+				93D15F6A2068F4CB000A63B5 /* Sources */,
+				93D15F6B2068F4CB000A63B5 /* Frameworks */,
+				93D15F6C2068F4CB000A63B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D15F702068F4CB000A63B5 /* PBXTargetDependency */,
+			);
+			name = WTWeiBoBaseDemoTests;
+			productName = WTWeiBoBaseDemoTests;
+			productReference = 93D15F6E2068F4CB000A63B5 /* WTWeiBoBaseDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93D15F782068F4CB000A63B5 /* WTWeiBoBaseDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D15F882068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemoUITests" */;
+			buildPhases = (
+				93D15F752068F4CB000A63B5 /* Sources */,
+				93D15F762068F4CB000A63B5 /* Frameworks */,
+				93D15F772068F4CB000A63B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D15F7B2068F4CB000A63B5 /* PBXTargetDependency */,
+			);
+			name = WTWeiBoBaseDemoUITests;
+			productName = WTWeiBoBaseDemoUITests;
+			productReference = 93D15F792068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D15F4E2068F4CA000A63B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xbkg;
+				TargetAttributes = {
+					93D15F552068F4CA000A63B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					93D15F6D2068F4CB000A63B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93D15F552068F4CA000A63B5;
+					};
+					93D15F782068F4CB000A63B5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93D15F552068F4CA000A63B5;
+					};
+				};
+			};
+			buildConfigurationList = 93D15F512068F4CA000A63B5 /* Build configuration list for PBXProject "WTWeiBoBaseDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D15F4D2068F4CA000A63B5;
+			productRefGroup = 93D15F572068F4CA000A63B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D15F552068F4CA000A63B5 /* WTWeiBoBaseDemo */,
+				93D15F6D2068F4CB000A63B5 /* WTWeiBoBaseDemoTests */,
+				93D15F782068F4CB000A63B5 /* WTWeiBoBaseDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D15F542068F4CA000A63B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BBD99F2069F58500E98ACF /* navi_bg.png in Resources */,
+				93BBD9922069DBA400E98ACF /* bear.png in Resources */,
+				93BBD99A2069F3D700E98ACF /* back@3x.png in Resources */,
+				93BBD9992069F3D700E98ACF /* back@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F6C2068F4CB000A63B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F772068F4CB000A63B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77DC0A3548DDFCB6C079254F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WTWeiBoBaseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E399BC44ECC53E96313C92C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTWeiBoBaseDemo/Pods-WTWeiBoBaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1126077B6DA82F302D3FD65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTWeiBoBaseDemo/Pods-WTWeiBoBaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D15F522068F4CA000A63B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D15F962068F878000A63B5 /* WTTempTVC.m in Sources */,
+				93D15F932068F6EA000A63B5 /* WTPanGestureRecognizer.m in Sources */,
+				93D15F9C2068FB8E000A63B5 /* WTNavigationController.m in Sources */,
+				93BBD99D2069F40600E98ACF /* WTLastVC.m in Sources */,
+				93D15F902068F696000A63B5 /* WTWeiBoVC.m in Sources */,
+				93D15F8D2068F552000A63B5 /* WTWeiBoPersonVC.m in Sources */,
+				93D15F692068F4CB000A63B5 /* main.m in Sources */,
+				93D15F992068FAB4000A63B5 /* WTFirstVC.m in Sources */,
+				93D15F5B2068F4CB000A63B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F6A2068F4CB000A63B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D15F732068F4CB000A63B5 /* WTWeiBoBaseDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D15F752068F4CB000A63B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D15F7E2068F4CB000A63B5 /* WTWeiBoBaseDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D15F702068F4CB000A63B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D15F552068F4CA000A63B5 /* WTWeiBoBaseDemo */;
+			targetProxy = 93D15F6F2068F4CB000A63B5 /* PBXContainerItemProxy */;
+		};
+		93D15F7B2068F4CB000A63B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D15F552068F4CA000A63B5 /* WTWeiBoBaseDemo */;
+			targetProxy = 93D15F7A2068F4CB000A63B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93D15F802068F4CB000A63B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93D15F812068F4CB000A63B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D15F832068F4CB000A63B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2D89A3550FB1493FCDD742 /* Pods-WTWeiBoBaseDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WTWeiBoBaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93D15F842068F4CB000A63B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 810B3B3DA4C70D9F442F1E7F /* Pods-WTWeiBoBaseDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WTWeiBoBaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		93D15F862068F4CB000A63B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTWeiBoBaseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTWeiBoBaseDemo.app/WTWeiBoBaseDemo";
+			};
+			name = Debug;
+		};
+		93D15F872068F4CB000A63B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTWeiBoBaseDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTWeiBoBaseDemo.app/WTWeiBoBaseDemo";
+			};
+			name = Release;
+		};
+		93D15F892068F4CB000A63B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTWeiBoBaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WTWeiBoBaseDemo;
+			};
+			name = Debug;
+		};
+		93D15F8A2068F4CB000A63B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WTWeiBoBaseDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xbkg.WTWeiBoBaseDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WTWeiBoBaseDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D15F512068F4CA000A63B5 /* Build configuration list for PBXProject "WTWeiBoBaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D15F802068F4CB000A63B5 /* Debug */,
+				93D15F812068F4CB000A63B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D15F822068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D15F832068F4CB000A63B5 /* Debug */,
+				93D15F842068F4CB000A63B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D15F852068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D15F862068F4CB000A63B5 /* Debug */,
+				93D15F872068F4CB000A63B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D15F882068F4CB000A63B5 /* Build configuration list for PBXNativeTarget "WTWeiBoBaseDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D15F892068F4CB000A63B5 /* Debug */,
+				93D15F8A2068F4CB000A63B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D15F4E2068F4CA000A63B5 /* Project object */;
+}
