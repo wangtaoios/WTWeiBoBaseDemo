@@ -98,7 +98,6 @@
     self.lastPoint = currentPoint;
 }
 
-// MARK: ChangeViewFrame (Animatable)
 - (void)setViewTop:(CGFloat)viewTop {
     _viewTop = viewTop;
     
