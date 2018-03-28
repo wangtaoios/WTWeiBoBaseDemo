@@ -21,7 +21,7 @@
     [super touchesBegan:touches withEvent:event];
     
     WTWeiBoPersonVC *vc = [[WTWeiBoPersonVC alloc] init];
-//
+
 //    WTTempTVC *vc1 = [[WTTempTVC alloc] init];
 //    WTTempTVC *vc2 = [[WTTempTVC alloc] init];
 //    WTTempTVC *vc3 = [[WTTempTVC alloc] init];
@@ -33,7 +33,7 @@
 //    vc.headerView = headerView;
 //    vc.titleArrays = @[@"主页", @"微博", @"相册", ];
 //    vc.vcArrays = @[vc1, vc2, vc3];
-//    
+    
     [self.navigationController pushViewController:vc animated:YES];
     
 }
